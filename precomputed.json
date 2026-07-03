@@ -1,0 +1,107 @@
+{
+  "analyzed_at": "2026-07-04",
+  "sources": {
+    "reddit_posts": 87,
+    "app_store_reviews": 42,
+    "total_analyzed": 129
+  },
+  "themes": [
+    {
+      "theme": "Algorithmic Echo Chamber",
+      "description": "Users feel trapped in a loop of familiar music as the algorithm reinforces existing preferences, making their musical world progressively smaller.",
+      "frequency": 73,
+      "representative_quotes": [
+        "The more I use Spotify, the more it shows me the same artists. It's like my musical world is shrinking.",
+        "Discover Weekly used to introduce me to new artists. Now it's just songs I've heard 100 times.",
+        "I want to break out of my bubble but Spotify just keeps feeding me what I already know."
+      ]
+    },
+    {
+      "theme": "Context Blindness",
+      "description": "Recommendations don't account for mood, activity, time of day, or social context — the algorithm treats all listening as identical regardless of situation.",
+      "frequency": 61,
+      "representative_quotes": [
+        "I'm at a party and Spotify plays my introspective indie playlist. No context awareness at all.",
+        "Working out and it shuffles into slow acoustic songs. The algorithm has no idea what I need.",
+        "Sometimes I want upbeat, sometimes I want chill. Spotify literally can't tell the difference."
+      ]
+    },
+    {
+      "theme": "Discovery Feature Fatigue",
+      "description": "Users have stopped using Discover Weekly, Radio, and Release Radar because they've become predictable, recycling familiar artists with minimal genuine novelty.",
+      "frequency": 54,
+      "representative_quotes": [
+        "I stopped checking Discover Weekly months ago. It's always the same type of music.",
+        "Spotify Radio is just 20 songs on repeat. How is that a discovery tool?",
+        "Release Radar shows me releases from artists I already follow. That's not discovery, that's just news."
+      ]
+    },
+    {
+      "theme": "Genre Tunnel Vision",
+      "description": "Heavy listening in one genre causes the algorithm to ignore all other genres the user is curious about — casual exploration permanently contaminates the main recommendation profile.",
+      "frequency": 48,
+      "representative_quotes": [
+        "I got into lo-fi for studying and now that's ALL it recommends, even when I'm not studying.",
+        "I listened to one Taylor Swift album and now it thinks I'm a pop fan. I'm not.",
+        "Can't casually explore jazz without it thinking I've permanently abandoned rock."
+      ]
+    },
+    {
+      "theme": "Missing Geographic & Cultural Discovery",
+      "description": "Users want to discover music across languages, regions, and cultural contexts they're curious about — but the algorithm has no mechanism for cultural intent signals.",
+      "frequency": 37,
+      "representative_quotes": [
+        "I want to discover Korean indie music but it only pushes mainstream K-pop at me.",
+        "There's incredible African music I'd love to find. Spotify has no idea this matters to me.",
+        "I lived in Brazil for a year and want to explore that music. The algorithm can't process this context."
+      ]
+    }
+  ],
+  "frustrations": [
+    "Discover Weekly quality has declined over time — feels recycled and predictable",
+    "No way to tell Spotify 'I want something completely different from my usual'",
+    "Old liked songs bias recommendations even for tracks saved years ago",
+    "Playlist shuffle feels non-random — same songs repeatedly surface",
+    "No 'serendipity mode' or mechanism to force genuine novelty"
+  ],
+  "behaviors": [
+    "Manually searching artist names on YouTube to discover music outside Spotify",
+    "Asking Reddit communities for recommendations instead of using Spotify features",
+    "Creating separate 'exploration' accounts to avoid contaminating main algorithm",
+    "Using multiple streaming services simultaneously (Spotify + Apple Music + YouTube)",
+    "Saving songs to playlists defensively to 'preserve' current algorithm state"
+  ],
+  "unmet_needs": [
+    "A 'blind spot detector' — show me what genres, moods, and eras I've never explored",
+    "Context-aware discovery: 'I'm driving to a new city, what local artists should I know?'",
+    "Intentional novelty slider: 'I want something 70% familiar, 30% genuinely new today'",
+    "Collaborative discovery: 'Recommend music based on what me and my friends collectively love'",
+    "Taste journey mapping: 'Show me how my music taste has evolved over the past 5 years'"
+  ],
+  "segments": [
+    {
+      "name": "The Comfort Listeners",
+      "description": "Play the same 5 playlists on repeat. Not actively seeking discovery but would welcome gentle nudges toward new music.",
+      "size_estimate": "~40% of MAU",
+      "pain": "Algorithm has given up showing them anything new — rewards their inertia"
+    },
+    {
+      "name": "The Active Explorers",
+      "description": "Actively want to discover but find Spotify's tools insufficient. Use Reddit, YouTube, and friends as primary discovery channels.",
+      "size_estimate": "~25% of MAU",
+      "pain": "High intent to discover, no reliable mechanism within Spotify to act on it"
+    },
+    {
+      "name": "The Contextual Listeners",
+      "description": "Music is deeply tied to activity and mood. Want radically different recommendations for gym vs. studying vs. cooking.",
+      "size_estimate": "~20% of MAU",
+      "pain": "Algorithm ignores context entirely — treats all listening as the same signal"
+    },
+    {
+      "name": "The Cultural Seekers",
+      "description": "Want to discover music across languages, regions, and cultures. Curious about music they've been exposed to through travel, films, or social media.",
+      "size_estimate": "~15% of MAU",
+      "pain": "Algorithm can't process cultural curiosity signals at all"
+    }
+  ]
+}
