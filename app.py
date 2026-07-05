@@ -70,19 +70,15 @@ with st.sidebar:
     st.image("https://storage.googleapis.com/pr-newsroom-wp/1/2018/11/Spotify_Logo_RGB_Green.png", width=140)
     st.markdown("---")
 
-    st.subheader("🔑 Live Analysis")
-    api_key = st.text_input(
-        "Claude API Key (optional)",
-        type="password",
-        placeholder="sk-ant-api03-...",
-        help="Add your Claude API key to run live analysis on freshly fetched data"
-    )
-    use_live = bool(api_key.strip())
+    # ── API key: set this value directly, no UI input needed ──────────────────
+    CLAUDE_API_KEY = "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"   # <-- paste your key here
+    api_key = CLAUDE_API_KEY
+    use_live = bool(api_key.strip()) and not api_key.startswith("sk-ant-YOUR")
 
     if use_live:
         st.success("✅ Live analysis enabled")
     else:
-        st.info("📊 Showing pre-computed insights\nAdd API key for live analysis")
+        st.info("📊 Showing pre-computed insights")
 
     st.markdown("---")
     st.subheader("📡 Data Sources")
